@@ -1,0 +1,25 @@
+.game-container{
+    background-color:#202329;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+#outputText{
+    color:#ff79c6
+}
+
+input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -15px; 
+    transition: 0.3s ease-out;
+}
+
+input{
+    border: none;
+}
+
+input:hover{
+    background-color: rgb(206, 206, 206);
+    transition: 0.3s;
+}
